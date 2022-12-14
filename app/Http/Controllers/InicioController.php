@@ -49,7 +49,7 @@ class InicioController extends Controller
         }
 
 
-        return view('inicio',compact('best_seller','newest','hot','mejor','reco','config'));
+        return view('inicio',compact('best','newest','hot','mejor','reco','config'));
     }
 
     public function sesion_usuario(){
